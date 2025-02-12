@@ -713,7 +713,7 @@ function! s:fim_on_stdout(hash, cache, pos_x, pos_y, is_auto, job_id, data, even
             call remove(s:content, -1)
         endwhile
 
-        let l:n_cached  = get(l:response, 'timings/tokens_cached', 0)
+        let l:n_cached  = get(l:response, 'tokens_cached', 0)
         let l:truncated = get(l:response, 'timings/truncated', v:false)
 
         " if response.timings is available
