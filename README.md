@@ -64,7 +64,7 @@ Examples:
 	let g:llama_config.show_info = v:false
 ```
 
-3. Disable auto FIM completion with lazy.nvim
+3. Disable auto FIM (Fill-In-the-Middle) completion with lazy.nvim
 ```lua
     {
         'ggml-org/llama.vim',
