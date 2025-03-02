@@ -76,6 +76,11 @@ Examples:
     }
 ```
 
+4. Changing accept line keymap
+```vim
+	let g:llama_config.keymap_accept_full = "<C-S>"
+```
+
 Please refer to `:help llama_config` or the [source](./autoload/llama.vim)
 for the full list of options.
 
