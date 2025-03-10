@@ -6,6 +6,12 @@ Local LLM-assisted text completion.
 
 ---
 
+Speculative predictions:
+
+![llama vim-spec-1](https://github.com/user-attachments/assets/404ebc2a-e4b8-4119-999b-e5365ec3208d)
+
+Language agnostic:
+
 ![llama vim-swift](https://github.com/user-attachments/assets/206c8399-ff73-495d-ba67-65725138c021)
 
 ## Features
@@ -18,6 +24,8 @@ Local LLM-assisted text completion.
 - Configure scope of context around the cursor
 - Ring context with chunks from open and edited files and yanked text
 - [Supports very large contexts even on low-end hardware via smart context reuse](https://github.com/ggerganov/llama.cpp/pull/9787)
+- Speculative FIM support
+- Speculative Decoding support
 - Display performance stats
 
 ## Installation
