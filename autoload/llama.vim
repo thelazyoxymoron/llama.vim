@@ -716,7 +716,7 @@ endfunction
 " try to generate a suggestion using the data in the cache
 function! s:fim_try_hint(pos_x, pos_y)
     " show the suggestion only in insert mode
-    if mode() !~# '\v^(i|ic|ix)$'
+    if mode() !=# 'i'
         return
     endif
 
